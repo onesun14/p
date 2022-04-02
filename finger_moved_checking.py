@@ -47,3 +47,6 @@ while True:
     cv2.waitKey(1)
 cap.release()
 cv2.destroyAllWindows()
+#거리를 계산하는 것은 이슈가 있을것 임
+#좌표를 계산해야하는데 모든 방향으로 할때 잘 되지 않기 때문에 손의 중심(0)을 가지고 다듬기로 함
+#지금 오류가 있음
